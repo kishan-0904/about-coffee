@@ -8,6 +8,12 @@ h1,h2,h3 {
   color: brown;
 }
 
+.heading{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+}
+
 ul{
   list-style-image: url("images/tiny-coffee-cup.gif");
 }
@@ -84,6 +90,7 @@ header h1{
 footer{
   margin: 40px 0;
 }
+
 footer nav a:link, footer nav a:visited{
   color: grey;
   text-decoration: none;
@@ -91,6 +98,13 @@ footer nav a:link, footer nav a:visited{
   width: 160px;
   text-align: center;
   background-color: white;
+}
+
+#footer-text{
+  background: brown;
+  color: white;
+  text-align: center;
+  padding: 6px;
 }
 
 footer nav a:hover{
